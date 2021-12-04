@@ -25,7 +25,7 @@ body {
     border-radius: 10px;
 }
 
-.display {
+.input-display {
     width: 100%;
     padding: 15px 10px;
     background-color: transparent;
@@ -47,7 +47,7 @@ body {
     gap: 20px;
 }
 
-.input-button {
+input[type=button] {
     padding: 10px;
     font-size: 1.25rem;
     color: #f7f7f7;
@@ -58,16 +58,16 @@ body {
     transition: .3s;
 }
 
-.input-button:hover {
+input[type=button]:hover {
     background-color: #18172c;
 }
 
-.equal {
+input[type=button].equal {
     grid-row: span 2;
     background-color: #864879;
 }
 
-.equal:hover {
+input[type=button].equal:hover {
     background-color: #68375d;
 }
 
