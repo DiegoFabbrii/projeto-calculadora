@@ -87,7 +87,7 @@ input[type=button][value="0"] {
 @media (max-width: 340px) {
 
     input[type=button] {
-        font-size: 1rem;
+        font-size: .750rem;
     }
 
     .input-display {
