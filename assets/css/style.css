@@ -80,6 +80,12 @@ input[type=button][value="0"] {
 
 @media (max-width: 1024px) {
     .calculator {
+        width: 70%;
+    }
+}
+
+@media (max-width: 540px) {
+    .calculator {
         width: 90%;
     }
 }
